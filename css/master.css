@@ -1,0 +1,459 @@
+
+header{
+  height: 14vh;
+  overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  background-color: black;
+	padding: 2em;
+	padding-left: 6em;
+  z-index: 1;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .bouton:hover{
+    background-color: rgba(255,255, 255, 0.4);
+    border:1.5px solid transparent;
+    color: black;
+  }
+
+
+li{
+	color: white;
+	margin-left:3em;
+	float:left;
+	font-size: 0.8em;
+font-family: "Continua-Regular.otf";
+padding:0.5em	;
+line-height: 1.5em;
+}
+
+ul {
+padding-top: 1.5em;
+padding-left: 1em;
+ margin:0;
+ list-style-type:none;
+
+ }
+
+ul li a {
+ display:block;
+ width:6em;
+ text-decoration:none;
+ color: white;
+ }
+
+
+  img:hover  {
+
+  -webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+  filter: grayscale(0%); /* Firefox */ }
+
+  img{
+
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%); /* Firefox */ }
+
+  body{
+
+  background-color: black;
+  background-size: cover;
+  height:90vh;
+}
+
+body.fond{
+  background-image: url("img/fond.jpg");
+
+}
+
+path.titre {
+  fill: transparent;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  transform-origin: center;
+}
+svg.titre{
+  padding-top: 28%;
+}
+
+
+.titre {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: dash 3s linear forwards;
+  animation-iteration-count:1;
+  fill:none;
+  padding-bottom: 1em;
+}
+
+.copyright{
+  padding-top: 1em;
+}
+@keyframes dash {
+5%{
+  opacity: 0
+}
+  15% {
+    stroke-dashoffset: 200;
+  }
+  65%{
+
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.fleche{
+  max-height: 2em;
+  max-width: 50px;
+  margin: 0 auto;
+  animation: fleche 2s linear forwards;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+transform-origin: bottom;
+opacity: 0;
+padding-bottom: 1.5em;
+
+}
+
+@keyframes fleche {
+
+  0% {
+    transform: scale(0.5);
+
+    opacity: 0;
+  }
+
+  80% {
+  transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.fleche2{
+  height:10em;
+  align-items: center;
+
+}
+
+
+.bouton{
+border:1.5px solid white;
+margin-left: 600px;
+margin-right: 600px;
+border-radius: 30px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.pres{
+  padding:5em;
+  padding-top: 13em;
+  max-height: 600px;
+  background-image: url("img/accueil2.jpg");
+  background-position: center;
+  background-size: cover;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+}
+
+.chap1{
+  background-color: black;
+  padding-top: 8em;
+  padding-left: 5em;
+  padding-right: 5em;
+
+}
+.accueil a{
+	color: white;
+	font-family: "Messapia-Bold.otf";
+}
+
+
+.chap1 .text2{
+  column-width: 50%;
+  column-count: 2;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+
+.chap2{
+  min-height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.chap2 .text2{
+  padding-left:5em;
+  column-count: 2;
+
+}
+.chap5
+{
+  background-color: white;
+  padding-bottom: 2em;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 7em;
+}
+.chap5 p{
+  color: black;
+
+}
+.chap5 .text2{
+  column-count: 2;
+  padding-top: 3em;
+  padding-left: 5em;
+  padding-bottom: 3em;
+
+}
+
+
+.chapnoir{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+.chapnoir .texta{
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 5em;
+  padding-bottom: 0em;
+}
+.chapnoir .texta p{
+  padding-bottom: 3em;
+}
+.merci{
+  padding-left: 5em;
+  padding-right: 7em;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.image{
+  min-width: 50%;
+  background-image:  url("img/prisonnb.jpg");
+  background-size: cover;
+}
+.imageclosed{
+  min-width: 50%;
+  background-image:  url("img/closednb.jpg");
+  background-size: cover;
+}
+.imageescape{
+  min-width: 50%;
+  background-image:  url("img/escape.jpg");
+  background-size: cover;
+}
+.fiction{
+  min-width: 50%;
+  background-image:  url("img/fiction.jpg");
+  background-size: cover;
+}
+.generation{
+  min-width: 50%;
+  background-image:  url("img/generation.jpg");
+  background-size: cover;
+}
+.image2{
+  min-width: 50%;
+  background-image:  url("img/enfantnb.jpg");
+  background-size: cover;
+}
+.lecture{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.audio{
+  border: 1px solid black;
+  margin: 10px auto;
+  width: 3em;
+  border-radius: 30px;
+  margin-bottom: 4em;
+
+}
+.audio2{
+  border: 1px solid white;
+  margin: 10px auto;
+  width: 3em;
+  border-radius: 30px;
+  margin-bottom: 8em;
+
+}
+.audio3{
+  border: 1px solid white;
+  margin: 10px auto;
+  width: 3em;
+  border-radius: 30px;
+  margin-bottom: 8em;
+align-items: center;
+}
+.audio2 img{
+  max-width: 35px;
+
+}
+.audio img{
+  max-width: 35px;
+
+}
+.chap2 p{
+  margin-bottom: 3em;
+  margin-top: 5em;
+  margin-left:  5em;
+  margin-right: 5em;
+}
+.chap3 p {
+  padding-bottom: 3em;
+padding-top: 0em;
+
+}
+.chap6 p{
+  padding-bottom: 3em;
+padding-top: 0em;
+  padding-right: 7em;
+  color:white;
+}
+.chap4 p{
+  margin-bottom: 3em;
+  padding-top: 0em;
+  padding-left:  0em;
+  padding-right: 7em;
+  color:black;
+}
+.chap4{
+  background-color: white;
+  padding-left: 5em;
+  padding-bottom: 1em;
+  padding-top: 4em;
+}
+
+audio {
+    color: black;
+    width: 200px;
+    height: 25px;
+}
+#audioplayer{
+    width: 480px;
+    height: 60px;
+    margin: 50px auto auto auto;
+}
+
+#pButton{
+margin-top: 10px;
+		height:40px;
+    width: 40px;
+    border: none;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float:left;
+    outline:none;
+}
+
+.play{background: url('http://www.alexkatz.me/codepen/img/play.png') ;}
+.pause{background: url('http://www.alexkatz.me/codepen/img/pause.png') ;}
+
+#timeline{
+    width: 200px;
+    height: 20px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 15px;
+    background: rgba(67,0,0,.3);
+
+}
+#playhead{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: rgba(0, 0, 0,1);
+
+}
+.chap3{
+  background-color: black;
+  scroll-behavior: auto;
+  overflow: scroll;
+  column-count:1;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 7em;
+		padding-bottom: 7em;
+
+}
+.chap3 .text2{
+  column-count: 1;
+  width: 50%;
+  padding-left: 25em;
+  padding-right: 5em;
+  padding-bottom: 5em;
+  padding-top: 3em;
+}
+.chap6{
+  background-color: black;
+  scroll-behavior: auto;
+  overflow: scroll;
+  column-count:1;
+    padding-left: 5em;
+
+    padding-top: 7em;
+
+}
+.textchap6 {
+  display: flex;
+  column-count: 1;
+  justify-content: space-between;
+}
+.textchap6 img{
+  max-width: 35em;
+  padding-right: 5em;
+padding-left: 5em;
+  margin-top: 0em;
+  margin-bottom: 0;
+}
+
+.citation{
+  background-image: url("img/fond.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  padding-top: 4em;
+  padding-bottom: 5em;
+}
+.citation p {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.citation2{
+  background-image: url("img/fond.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: scroll;
+    padding: 4em;
+}
+.citation2 p{
+  margin-left: 9%;
+  margin-right: 9%;
+  text-align: center;
+}
+.text1{
+  color: black;
+}
+.lecture{
+	margin-bottom: 5em;
+}
