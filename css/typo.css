@@ -1,0 +1,85 @@
+@font-face{
+     font-family: "Continua-Regular.otf";
+     src: url("fonts/Continua-Regular.otf");
+}
+@font-face{
+     font-family: "Messapia-Bold.otf";
+     src: url("fonts/Messapia-Bold.otf");
+}
+@font-face{
+     font-family: "ITCAvantGardeStd-Bk.otf";
+     src: url("fonts/ITCAvantGardeStd-Bk.otf");
+}
+@font-face{
+     font-family: "ITCAvantGardeStd-Bold.otf";
+     src: url("fonts/ITCAvantGardeStd-Bold.otf");
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 4em;
+  margin-left: 25vh;
+  margin-right: 25vh;
+}
+
+h1.titre{
+  padding-top: 2em;
+    padding-bottom: 1em;
+}
+h2{
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h3{
+  color: white;
+  font-size: 0.8em;
+  font-family: "Messapia-Bold.otf";
+  text-align:center;
+}
+.audio h2{ color:black}
+h4{
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+}
+h4, h2,h1{
+  font-family: "Continua-Regular.otf";
+}
+p{  font-family: "ITCAvantGardeStd-Bk.otf";
+font-size: 1em;
+text-align: left;
+  color: white;
+  line-height: 1.5em;
+}
+p span{
+  font-size: 2em;
+  font-family: "ITCAvantGardeStd-Bk.otf";
+  line-height: 1.3em;
+  
+}
+
+.merci p{
+  font-family: "Continua-Regular.otf";
+  font-size: 0.3em;
+  text-align: center;
+}
+
+.citation p{
+  font-family: "Continua-Regular.otf";
+  font-size: 3em;
+
+}
+.citation2 p{
+  font-family: "Continua-Regular.otf";
+  font-size: 3em;
+
+}
+
+.chap2 p{
+  color: black;
+}
